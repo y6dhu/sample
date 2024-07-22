@@ -1,0 +1,40 @@
+.background{
+    background-color: antiquewhite;
+    height: 450px;
+    width: 670px;
+    margin: 150px auto;
+    border-radius: 15px;
+}
+.optionstyle{
+    width: 100px;
+    height: 33px;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 8px;
+    border-radius: 15px;
+    margin-top: 12px;
+}
+#option-box
+{
+    display: grid;
+    grid-template-columns: auto;
+    padding:25px;
+    margin-left: 113px;
+
+}
+#question_box{
+    font-size: 23px;
+    margin-left: 16px;
+    margin-bottom: 18px;
+    padding-top: 62px;
+    text-align: center;
+}
+#next_button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    background-color:lightcoral;
+    border-color: bisque;
+    margin-left:
+}

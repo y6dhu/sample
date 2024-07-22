@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    
+}
+.to-do-app
+
+{
+    background-image: url('image1.jpeg')
+    width: 550px;
+    height: 500px;
+    margin-top: 150px;
+    margin-left: 500px;
+    text-align: center;
+}

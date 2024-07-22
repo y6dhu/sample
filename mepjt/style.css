@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+}
+.bgimage{
+    background-image: url("buggati2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    margin-left: 100px;
+}
+.logo

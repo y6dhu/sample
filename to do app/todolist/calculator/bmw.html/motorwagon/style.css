@@ -1,0 +1,65 @@
+.header{
+    margin-top: 32px;
+    margin-left:50px;
+}
+.info ul li{
+    display: inline;
+    padding: 30px;
+    
+
+}
+.info{
+    text-align: end;
+    margin-left: 610PX;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mini{
+    background-color: black;
+    border-radius: 15px;
+    margin-top: 40px;
+    width: 90%;
+    height: 450px;
+   overflow: hidden;
+   margin-left: 70px;
+   
+
+
+}
+.mini img {
+   width: 100%;
+   
+}
+.textintro
+{
+ position: absolute;
+ color: rgb(214, 214, 214);
+ font-family: Arial, Helvetica, sans-serif;
+ top: 400px;
+ left: 815px;
+}
+h1,h3
+{
+    animation: demo 4s;
+}
+
+@keyframes demo {
+    0%{
+        transform: translate(-20px);
+        opacity: 0;
+
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+    
+}
+.searchbar
+{
+    background-color: rgb(0, 0, 0);
+    width:90%;
+    height: 100px;
+    margin-left: 70px;
+    margin-top: 10px;
+    border-radius:15px ;
+}

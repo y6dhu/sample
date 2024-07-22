@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="myimage">
+
+    <p class="name"></p>
+    <p class="name"></p>
+    <p class="name"></p>
+    <p class="name"></p>
+    <p class="name"></p>
+
+    
+
+
+
+    <script type="text/javascript">
+
+        let Names  = [
+            "Athul",
+            "Athira",
+            "jaisal",
+            "Ammoos",
+            "thankamma",
+        ]
+
+        element = document.getElementsByClassName("name")
+
+
+        for(let i =0;i<Names.length;i++){
+
+            element[i].innerHTML=Names[i]
+            document.getElementById("myimage").src="sky.jpg";
+
+        }
+    
+
+    </script>
+    
+</body>
+</html>

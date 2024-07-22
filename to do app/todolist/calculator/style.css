@@ -1,0 +1,28 @@
+.small-box{
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 400px;
+    margin-left: 615px;
+    margin-top: 190px;
+    border-radius: 30px;
+}
+.inputbox{
+    margin-top: 18px;
+    margin-left: 48px;
+    width: 200px;
+    height: 32px;
+    border-radius: 20px;
+    background-color: rgb(94, 121, 145);
+    color: rgb(168, 168, 168);
+}
+.buttons{
+    margin-top: 30px;
+    height: 45px;
+    width: 45px;
+    border-radius: 25px;
+
+}
+.container{
+    padding:10px ;
+}
+

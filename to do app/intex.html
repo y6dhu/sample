@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="text-align: center;">
+    <div id="list">hi </div>   
+
+        <button onclick="additems()">   Click here</button>
+
+        <script type="text/javascript">
+            
+            let sentence=["bmw 220d",
+                          "bmw m2",
+                          "bmw m3",
+                          "bmw m4",
+                          "bmw m5"
+            ]
+
+            let itemcount=0;
+
+            function additems()
+            {
+             if(itemcount<sentence.length)
+             {
+                box=document.getElementById("list")
+              var newelement=document.createElement("p")
+                newelement.innerHTML=sentence[itemcount]
+                list.appendChild(newelement)
+
+                itemcount++
+             }
+             else{
+                alert("no more items to show")
+             }
+
+             }
+        
+
+        </script>
+    
+</body>
+</html>

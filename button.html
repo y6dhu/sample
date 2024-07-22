@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body style="text-align: center;">
+	<h1 style="color: rgba(240, 24, 0, 0.927);">
+		CYBER SQUARE
+	</h1>
+	<button id="btn" style="border-radius:40%;">click</button>
+	<p>
+		<span id="display">0</span> 
+	</p>
+	<script type="text/javascript">
+		let count = 0;
+		let btn = document.getElementById("btn");
+		let disp = document.getElementById("display");
+		
+		btn.onclick = function () {
+					count++;
+		disp.innerHTML = count;
+		}
+	</script>
+</body>
+</html>
